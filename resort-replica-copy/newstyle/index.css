@@ -1,0 +1,55 @@
+.about, .daily, .experiences, .amenities{
+    margin: 30px;
+    padding: 20px;
+}
+header{
+    position: absolute;
+    display: flex;
+    width: 80%;
+}
+.content{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#hero{
+    width: 100%;
+    height: 50vh;
+    background-image: url('/assets/images/hero.jpg');
+}
+/* .overlay{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+} */
+.title-container{
+    position: absolute;
+    margin: 30px;
+    padding-top: 20px;
+}
+.title{
+    color: white;
+    font-size: 42px;
+}
+.subtitle{
+    color: white;
+    font-size: 32px;
+}
+.icons-desc{
+    display: flex;
+    justify-content: center;
+}
+.icon-item-container{
+    position: relative;
+    justify-items: center;
+}
+.thumbnail-desc
+{
+    /* display: flex; */
+   grid: (0,6,1fr);
+}
+.thumbnail-container{
+    height: 40vh;
+    width: 200px;
+}

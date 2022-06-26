@@ -1,0 +1,16 @@
+header{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+.inquiry{
+    margin: 30px;
+}
+.content{
+    margin: 20px;
+}
+.form{
+    width: 80%;
+    align-items: center;
+}
